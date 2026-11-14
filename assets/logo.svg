@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Live Dating Video Cam Icon -->
+  <g transform="translate(10, 8)" filter="url(#glow)">
+    <rect x="2" y="6" width="30" height="24" rx="7" fill="url(#logoGrad)" />
+    <!-- Lens with Heart Center -->
+    <circle cx="17" cy="18" r="6.5" fill="#09090f" />
+    <path d="M 17 20 L 14 17 A 2 2 0 0 1 17 15 A 2 2 0 0 1 20 17 Z" fill="#ec4899" />
+    <!-- Cam lens projector -->
+    <path d="M 33 13 L 44 8 L 44 28 L 33 23 Z" fill="url(#logoGrad)" />
+    <!-- Live Green Dot -->
+    <circle cx="8" cy="11" r="2.2" fill="#22c55e" />
+  </g>
+
+  <!-- Typography -->
+  <text x="64" y="31" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-size="20" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    RANDOM<tspan fill="url(#logoGrad)">LIVE</tspan>
+  </text>
+  <text x="65" y="44" font-family="'Inter', system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#ec4899" letter-spacing="1.5">
+    STRANGER VIDEO DATING
+  </text>
+</svg>

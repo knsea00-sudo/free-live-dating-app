@@ -1,0 +1,19 @@
+{
+  "name": "PulseLive - Global Random Video Chat Platform",
+  "short_name": "PulseLive",
+  "description": "Connect with strangers from around the world through live HD video calls.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090f",
+  "theme_color": "#8b5cf6",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "video", "entertainment"]
+}

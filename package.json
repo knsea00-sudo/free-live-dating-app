@@ -1,0 +1,22 @@
+{
+  "name": "pulselive",
+  "version": "1.0.0",
+  "description": "Production-Ready Global Random Video Chat Platform with WebRTC, Coin Wallet, Subscriptions, and Super Admin Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "agy-node server.js",
+    "test": "agy-node test/unit_tests.js"
+  },
+  "keywords": [
+    "webrtc",
+    "video-chat",
+    "random-chat",
+    "livekit",
+    "sfu",
+    "realtime",
+    "wallet",
+    "subscriptions"
+  ],
+  "author": "PulseLive Engineering",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080d" />
+      <stop offset="50%" stop-color="#120c1f" />
+      <stop offset="100%" stop-color="#05131a" />
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="150" r="300" fill="#8b5cf6" opacity="0.25" filter="blur(80px)" />
+  <circle cx="1000" cy="480" r="350" fill="#06b6d4" opacity="0.2" filter="blur(90px)" />
+  <circle cx="650" cy="300" r="250" fill="#ec4899" opacity="0.2" filter="blur(85px)" />
+
+  <!-- Glass Card Container -->
+  <rect x="80" y="70" width="1040" height="490" rx="28" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="2" />
+
+  <!-- Badge: 18+ Live Dating Platform -->
+  <rect x="130" y="120" width="280" height="42" rx="21" fill="rgba(236, 72, 153, 0.15)" stroke="#ec4899" stroke-width="1.5" />
+  <circle cx="155" cy="141" r="5" fill="#22c55e" />
+  <text x="175" y="147" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#ec4899">🔥 STRANGER VIDEO DATING</text>
+
+  <!-- Free Coins Pill -->
+  <rect x="430" y="120" width="250" height="42" rx="21" fill="rgba(251, 191, 36, 0.15)" stroke="#fbbf24" stroke-width="1.5" />
+  <text x="460" y="147" font-family="'Inter', sans-serif" font-size="16" font-weight="800" fill="#fbbf24">🪙 200 FREE COINS</text>
+
+  <!-- Big Brand Heading -->
+  <text x="130" y="240" font-family="'Outfit', sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="-1">
+    Random Live Chat
+  </text>
+  <text x="130" y="310" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="url(#neonGrad)" letter-spacing="-0.5">
+    Live 1-on-1 Video Dating with Strangers
+  </text>
+
+  <!-- Description -->
+  <text x="130" y="380" font-family="'Inter', sans-serif" font-size="24" font-weight="500" fill="#94a3b8">
+    Connect face-to-face with attractive single girls &amp; guys worldwide.
+  </text>
+  <text x="130" y="415" font-family="'Inter', sans-serif" font-size="24" font-weight="500" fill="#94a3b8">
+    100% Real Live Humans • Encrypted Private Calls • Strictly 18+
+  </text>
+
+  <!-- Bottom CTA Pills -->
+  <g transform="translate(130, 460)">
+    <rect x="0" y="0" width="220" height="52" rx="14" fill="url(#neonGrad)" />
+    <text x="35" y="33" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#ffffff">⚡ Start Dating Now</text>
+
+    <rect x="240" y="0" width="200" height="52" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" />
+    <text x="270" y="33" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#f8fafc">👩 Meet Girls</text>
+
+    <rect x="460" y="0" width="200" height="52" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" />
+    <text x="490" y="33" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#f8fafc">👨 Meet Guys</text>
+  </g>
+</svg>
