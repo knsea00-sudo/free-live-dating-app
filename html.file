@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Random Live Chat - Free Random Video Dating &amp; Stranger Chat</title>
+  
+  <!-- Primary SEO Meta Tags -->
+  <meta name="title" content="Random Live Chat - Free Random Video Dating &amp; Stranger Chat">
+  <meta name="description" content="Connect instantly with verified strangers and singles on Random Live Chat. Live 1-on-1 private HD video dating, meet attractive girls, chat with single guys, and find romantic connections worldwide. 100% real users, strictly 18+.">
+  <meta name="keywords" content="random live chat, random video dating, video chat with strangers, stranger dating app, live stranger video call, meet single girls online, chat with random women, 1 on 1 stranger dating, online video dating, free dating video chat, talk to strangers online, cam dating with strangers, omegle alternative, chathub dating">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="language" content="English, Hindi">
+  <meta name="author" content="Random Live Chat Official">
+  <link rel="canonical" href="http://localhost:3000/">
+
+  <!-- Open Graph / Facebook / WhatsApp / Telegram -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:3000/">
+  <meta property="og:title" content="Random Live Chat - Free 1-on-1 Video Dating with Strangers">
+  <meta property="og:description" content="Meet &amp; date attractive strangers worldwide with 200 complimentary coins. Real verified users, instant face-to-face HD video calls.">
+  <meta property="og:image" content="http://localhost:3000/assets/og-banner.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Random Live Chat">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="http://localhost:3000/">
+  <meta name="twitter:title" content="Random Live Chat - Random Video Dating &amp; Stranger Cam Chat">
+  <meta name="twitter:description" content="Chat 1-on-1 with real strangers and singles across the world in HD video. 200 Free coins on signup.">
+  <meta name="twitter:image" content="http://localhost:3000/assets/og-banner.svg">
+
+  <!-- PWA & Mobile Meta -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#8b5cf6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@600;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="/css/style.css?v=8">
+  <link rel="stylesheet" href="/css/admin.css?v=8">
+
+  <!-- Schema.org JSON-LD Structured Data for Dating & WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "http://localhost:3000/#website",
+        "url": "http://localhost:3000/",
+        "name": "Random Live Chat",
+        "description": "Free random video dating platform connecting strangers and singles worldwide.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "http://localhost:3000/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "http://localhost:3000/#app",
+        "name": "Random Live Chat",
+        "applicationCategory": "SocialNetworkingApplication",
+        "operatingSystem": "All (Web, Windows, Android, iOS, Tablets)",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Worldwide random live video dating application connecting singles and strangers face-to-face in encrypted HD video chat.",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "128450",
+          "bestRating": "5"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "http://localhost:3000/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Random Live Chat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Random Live Chat is a free, high-speed random video dating platform that connects you 1-on-1 with real strangers and attractive singles worldwide via encrypted WebRTC live video."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I filter video chat by gender (Female or Male)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! You can connect specifically with verified female users, male users, or random strangers. Every new registration receives 200 complimentary coins to test both Male and Female sections freely."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Random Live Chat safe and strictly 18+?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Random Live Chat strictly enforces an 18+ adult policy with age verification controls, real-time moderation, peer-to-peer encryption, and zero private call recording."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to download an app to use Random Live Chat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No download is required. Random Live Chat works seamlessly across desktop browsers, Android, iPhone/iOS, and tablet devices with one-click instant access."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Ambient Floating Glass Orbs Background -->
+  <div class="ambient-orbs-container" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN USER APPLICATION VIEW
+       ========================================================================== -->
+  <div id="mainView">
+    <!-- Top Announcement Ticker -->
+    <div class="announcement-bar">
+      <span>📢</span>
+      <span id="announcementText">✨ Welcome to PulseLive! Real live video chat. Register now for 200 free coins!</span>
+    </div>
+
+    <!-- App Header -->
+    <header class="app-header glass-panel">
+      <div class="brand-wrapper" onclick="window.location.reload()">
+        <img src="/assets/logo.svg" alt="PulseLive Logo" class="brand-logo" id="headerLogoImg">
+      </div>
+
+      <div class="header-actions">
+        <!-- Coin Wallet Pill -->
+        <div class="coin-pill" id="coinPillBtn" onclick="pulseApp.openWalletModal()" title="View Wallet Balance & History">
+          <span class="coin-icon">🪙</span>
+          <span class="coin-amount" id="headerCoinCount">200</span>
+          <span class="coin-plus" id="buyCoinsBtn" onclick="event.stopPropagation(); pulseApp.openWalletModal()" title="Recharge Coins">+</span>
+        </div>
+
+        <!-- VIP Membership Badge -->
+        <button class="glow-btn" id="vipUpgradeBtn" onclick="pulseApp.openSubscriptionModal()" style="padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.85rem; display: flex; align-items: center; gap: 6px;">
+          <span>👑</span>
+          <span id="headerVipBadge">VIP Access</span>
+        </button>
+
+        <!-- Customer Support Desk -->
+        <button class="control-btn" id="headerSupportBtn" onclick="pulseApp.openSupportModal()" style="width: 36px; height: 36px; font-size: 1rem;" title="Customer Support & Help Center">
+          🎧
+        </button>
+
+        <!-- OWNER STUDIO (Protected by Security PIN) -->
+        <button class="control-btn" id="headerStudioBtn" onclick="window.ownerStudio.openStudio()" style="width: auto; padding: 0 12px; height: 36px; font-size: 0.85rem; font-weight: 800; background: rgba(251, 191, 36, 0.15); border: 1px solid #fbbf24; color: #fbbf24; display: flex; align-items: center; gap: 6px;" title="Owner Studio Command Center">
+          <span>👑</span>
+          <span>Owner Studio</span>
+        </button>
+
+        <!-- User Profile Avatar & Status -->
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span id="headerUsername" style="font-size: 0.85rem; font-weight: 700; color: var(--text-main); max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></span>
+          <div class="user-avatar-btn" id="userProfileBtn" onclick="pulseApp.openProfileModal()" title="Your Profile & Settings">
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed=User" alt="Avatar" id="userAvatarImg">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Dashboard Container -->
+    <main class="dashboard-container">
+      <div class="dashboard-hero">
+        <h1>Random Live Chat - Stranger Video Dating</h1>
+        <p>Meet attractive singles &amp; talk to strangers worldwide in live 1-on-1 private video calls. Instant match, 100% real humans, strictly 18+.</p>
+        
+        <!-- Filter Preferences Bar -->
+        <div class="filter-bar">
+          <span style="font-size: 0.85rem; color: var(--text-dim); font-weight: 700; text-transform: uppercase;">Matching Region:</span>
+          <div class="filter-chip active" data-filter="worldwide">
+            <span>🌍</span>
+            <span>Worldwide</span>
+          </div>
+          <div class="filter-chip" data-filter="same_country">
+            <span>🏠</span>
+            <span>Same Country</span>
+          </div>
+          <div class="filter-chip" data-filter="different_country">
+            <span>✈️</span>
+            <span>International Only</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Cards Grid (REAL DATA ONLY - NO FAKE COUNTERS) -->
+      <div class="categories-grid">
+        <!-- 1. STRANGER CATEGORY -->
+        <div class="category-card card-stranger glass-panel" data-category="stranger" onclick="pulseApp.handleCategoryClick('stranger')">
+          <div class="category-icon-wrapper">
+            <span>🌐</span>
+          </div>
+          <h3>STRANGER</h3>
+          <p>Randomly connect with available online users worldwide. Free to match anytime.</p>
+          <div class="online-pill">
+            <span class="online-dot"></span>
+            <span class="real-online-count">0 Online</span>
+          </div>
+          <button class="glow-btn category-start-btn" onclick="event.stopPropagation(); pulseApp.handleCategoryClick('stranger')">
+            ⚡ Start Video Call
+          </button>
+        </div>
+
+        <!-- 2. FEMALE CATEGORY -->
+        <div class="category-card card-female glass-panel" data-category="female" onclick="pulseApp.handleCategoryClick('female')">
+          <div class="category-icon-wrapper">
+            <span>👩</span>
+          </div>
+          <h3>FEMALE</h3>
+          <p>Connect specifically with verified female users from different regions.</p>
+          <div class="online-pill">
+            <span class="online-dot"></span>
+            <span class="real-online-count">0 Online</span>
+          </div>
+          <button class="glow-btn category-start-btn" onclick="event.stopPropagation(); pulseApp.handleCategoryClick('female')">
+            ⚡ Connect with Female
+          </button>
+          <div id="femaleCategoryHint" style="margin-top: 10px; font-size: 0.8rem; color: #fbbf24; font-weight: 700;">
+            ⚡ 5 Coins / Call (Free Trial Unlocked)
+          </div>
+        </div>
+
+        <!-- 3. MALE CATEGORY -->
+        <div class="category-card card-male glass-panel" data-category="male" onclick="pulseApp.handleCategoryClick('male')">
+          <div class="category-icon-wrapper">
+            <span>👨</span>
+          </div>
+          <h3>MALE</h3>
+          <p>Connect specifically with verified male users from different regions.</p>
+          <div class="online-pill">
+            <span class="online-dot"></span>
+            <span class="real-online-count">0 Online</span>
+          </div>
+          <button class="glow-btn category-start-btn" onclick="event.stopPropagation(); pulseApp.handleCategoryClick('male')">
+            ⚡ Connect with Male
+          </button>
+          <div id="maleCategoryHint" style="margin-top: 10px; font-size: 0.8rem; color: #38bdf8; font-weight: 700;">
+            ⚡ 5 Coins / Call (Free Trial Unlocked)
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust & Safety Guarantee Banner -->
+      <div class="glass-panel" style="padding: 1.5rem 2rem; border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 2rem;">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <div style="font-size: 2rem;">🛡️</div>
+          <div>
+            <h4 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 2px;">100% Real Users • Strictly 18+ • Privacy Guaranteed</h4>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Encrypted peer-to-peer live communication. Zero private recording. Real live humans.</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <button class="btn-sm" style="background: rgba(139, 92, 246, 0.2); color: #fff; font-weight: 700; border: 1px solid var(--accent-primary);" onclick="window.open(window.location.origin, '_blank')">
+            🪟 Open 2nd Window to Test Real Call
+          </button>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           SEO: WHY SINGLES LOVE RANDOM LIVE CHAT
+           ========================================== -->
+      <section class="seo-features-grid" aria-label="Key Dating Features">
+        <div class="glass-panel seo-feature-card">
+          <div style="font-size: 2.2rem;">⚡</div>
+          <h3 style="font-size: 1.1rem; font-weight: 800;">Instant Matchmaking</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Connect with random singles within 2 seconds. Zero waiting rooms, no ghosting.</p>
+        </div>
+
+        <div class="glass-panel seo-feature-card">
+          <div style="font-size: 2.2rem;">👩‍❤️‍👨</div>
+          <h3 style="font-size: 1.1rem; font-weight: 800;">Female &amp; Male Filters</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Pick your preference! Match specifically with gorgeous women or handsome men.</p>
+        </div>
+
+        <div class="glass-panel seo-feature-card">
+          <div style="font-size: 2.2rem;">🌍</div>
+          <h3 style="font-size: 1.1rem; font-weight: 800;">Worldwide &amp; Local</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Meet local singles near you or explore foreign partners from 120+ countries.</p>
+        </div>
+
+        <div class="glass-panel seo-feature-card">
+          <div style="font-size: 2.2rem;">🛡️</div>
+          <h3 style="font-size: 1.1rem; font-weight: 800;">100% Real Live Humans</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Strictly zero fake bots. Every connected call is a living, breathing human being.</p>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           SEO: KEYWORD-RICH DATING ARTICLE & GUIDE
+           ========================================== -->
+      <article class="glass-panel seo-content-article" itemscope itemtype="https://schema.org/Article">
+        <header>
+          <h2 itemprop="headline">Random Live Chat: The Premier Worldwide Video Dating Experience for Strangers</h2>
+          <p itemprop="description">Tired of endless swiping and boring text chats on dating apps that lead nowhere? <strong>Random Live Chat</strong> brings real romance and genuine chemistry back to the forefront with spontaneous, face-to-face live video dating with strangers.</p>
+        </header>
+
+        <section>
+          <h3>🔥 Face-to-Face Chemistry: Real Reactions, Real Romance</h3>
+          <p>Texting hides emotions, but live video reveals genuine laughs, smiles, and eye contact. Whether you're looking for exciting romance, casual flirtation, or finding new international friends, Random Live Chat provides the fastest and most secure platform to meet singles online.</p>
+
+          <h3>👩 Free Female &amp; Male Match Filters</h3>
+          <p>Unlike old-fashioned chat sites that leave matchmaking purely to chance, Random Live Chat gives you full control. Every new eligible user receives <strong>200 complimentary coins</strong> upon registration to test both Female and Male matching rooms freely. Find your dream stranger today!</p>
+
+          <h3>🔒 Discretion, Anonymity &amp; Top-Tier Privacy</h3>
+          <p>Your privacy is our number one priority. All video calls are streamed directly peer-to-peer using WebRTC technology, ensuring your calls are never saved or recorded. Plus, our automated moderation shield strictly enforces an <strong>18+ community policy</strong> to ensure safe and respectful interactions for all users.</p>
+        </section>
+      </article>
+
+      <!-- ==========================================
+           SEO: FREQUENTLY ASKED QUESTIONS (FAQ)
+           ========================================== -->
+      <section class="seo-faq-container" aria-label="Frequently Asked Questions">
+        <h2 style="font-size: 1.6rem; font-weight: 900; text-align: center; margin-bottom: 1.5rem; background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+          Frequently Asked Questions About Random Live Chat
+        </h2>
+
+        <div class="glass-panel seo-faq-item">
+          <div class="seo-faq-question" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <span>❓ How does Random Live Chat video dating work?</span>
+            <span style="color: var(--accent-secondary);">▼</span>
+          </div>
+          <div class="seo-faq-answer" style="display: block;">
+            Random Live Chat pairs you 1-on-1 with available strangers based on your selected matching filters (Worldwide, Same Country, or Gender). Simply click 'Start Video Call' on any category card, and our instant matchmaking algorithm connects your camera in seconds.
+          </div>
+        </div>
+
+        <div class="glass-panel seo-faq-item">
+          <div class="seo-faq-question" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <span>❓ Can I chat specifically with girls or guys?</span>
+            <span style="color: var(--accent-secondary);">▼</span>
+          </div>
+          <div class="seo-faq-answer" style="display: none;">
+            Yes! You can choose the FEMALE or MALE category cards. Every new user receives 200 complimentary trial coins to check out both sections freely. Once trial coins are exhausted, you can upgrade to VIP subscription or recharge coins to keep matching with your preferred gender.
+          </div>
+        </div>
+
+        <div class="glass-panel seo-faq-item">
+          <div class="seo-faq-question" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <span>❓ Is Random Live Chat really free for strangers?</span>
+            <span style="color: var(--accent-secondary);">▼</span>
+          </div>
+          <div class="seo-faq-answer" style="display: none;">
+            Yes! The Stranger category is 100% free to use anytime, even with 0 coins in your wallet. You also receive 200 free coins on signup to try premium gender-filtered calls without paying upfront.
+          </div>
+        </div>
+
+        <div class="glass-panel seo-faq-item">
+          <div class="seo-faq-question" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <span>❓ Are video calls recorded or stored?</span>
+            <span style="color: var(--accent-secondary);">▼</span>
+          </div>
+          <div class="seo-faq-answer" style="display: none;">
+            Never. All calls use end-to-end WebRTC peer-to-peer data channels. Video and audio streams go directly between your device and your partner's device without passing through recording servers.
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           SEO: SEARCH-ENGINE OPTIMIZED FOOTER
+           ========================================== -->
+      <footer class="seo-footer" role="contentinfo">
+        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: 700;">
+          <a href="/random-live-chat" style="color: var(--text-main); text-decoration: none;">Random Live Chat</a>
+          <a href="/dating" style="color: var(--text-main); text-decoration: none;">Video Dating</a>
+          <a href="/strangers" style="color: var(--text-main); text-decoration: none;">Stranger Cam</a>
+          <a href="javascript:void(0)" onclick="window.pulseApp.openSupportModal()" style="color: var(--text-muted); text-decoration: none;">Support Desk</a>
+          <a href="javascript:void(0)" onclick="window.pulseApp.openSubscriptionModal()" style="color: #fbbf24; text-decoration: none;">VIP Plans</a>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 1rem;">
+          <span style="background: rgba(239, 68, 68, 0.2); color: #ef4444; border: 1px solid #ef4444; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 900;">18+ STRICTLY</span>
+          <span style="color: var(--text-dim); font-size: 0.85rem;">Safe &amp; Encrypted Random Stranger Video Dating Platform</span>
+        </div>
+
+        <p style="color: var(--text-dim); font-size: 0.8rem; max-width: 650px; margin: 0 auto; line-height: 1.5;">
+          Random Live Chat connects consenting adults (18+) worldwide. Inappropriate behavior, harassment, or underage access results in immediate and permanent hardware ban.
+          <br>
+          &copy; 2026 <strong>Random Live Chat</strong>. All rights reserved.
+        </p>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- ==========================================================================
+       AUTHENTICATION & REGISTRATION MODAL (GOOGLE, FACEBOOK, EMAIL)
+       ========================================================================== -->
+  <div class="modal-overlay" id="authModal">
+    <div class="glass-panel auth-card-container">
+      <div style="text-align: center; margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.6rem; font-weight: 900; margin-bottom: 4px;">Welcome to <span class="brand-name-display">Random Live Chat</span></h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">Connect with real strangers worldwide • 200 Complimentary Coins</p>
+      </div>
+
+      <!-- Prominent Tab Switcher -->
+      <div class="auth-tabs-nav">
+        <button type="button" class="auth-tab-btn active" id="authTabLogin" onclick="pulseApp.switchAuthTab('login')">
+          🔑 Log In
+        </button>
+        <button type="button" class="auth-tab-btn" id="authTabRegister" onclick="pulseApp.switchAuthTab('register')">
+          ✨ New Account (200 Coins)
+        </button>
+      </div>
+
+      <!-- Status / Error Notification Box -->
+      <div id="authInlineAlert" style="display: none; padding: 10px 14px; border-radius: 10px; margin-bottom: 1rem; font-size: 0.85rem; font-weight: 600; text-align: center;"></div>
+
+      <!-- Quick 1-Click Social Sign-in Options -->
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 1.25rem;">
+        <!-- Google Button -->
+        <button type="button" class="social-login-btn google-btn" id="googleAuthTriggerBtn" onclick="pulseApp.loginWithGoogle()">
+          <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+          <span>Continue with Google (Gmail)</span>
+        </button>
+
+        <!-- Google Drawer (Expanded on Click) -->
+        <div id="googleSignInDrawer" style="display: none; background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(234, 67, 53, 0.3); border-radius: 12px; padding: 14px; margin-top: -4px;">
+          <!-- CUSTOM GMAIL INPUT -->
+          <div style="font-size: 0.78rem; color: var(--text-dim); margin-bottom: 6px;">Enter your Gmail address:</div>
+          <div style="display: flex; gap: 8px;">
+            <input type="email" id="googleCustomEmailInput" class="admin-input" placeholder="yourname@gmail.com" style="flex: 1; padding: 8px 12px; font-size: 0.85rem;">
+            <button type="button" class="glow-btn" style="padding: 8px 14px; font-size: 0.85rem; border-radius: 8px;" onclick="pulseApp.submitCustomGmail()">
+              Sign In
+            </button>
+          </div>
+        </div>
+
+        <!-- Facebook Button -->
+        <button type="button" class="social-login-btn facebook-btn" id="facebookAuthBtn" onclick="pulseApp.loginWithFacebook()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>Continue with Facebook</span>
+        </button>
+
+        <!-- 1-Click Instant Guest Account -->
+        <button type="button" class="control-btn" style="width: 100%; border-radius: var(--radius-md); font-size: 0.85rem; font-weight: 700; padding: 10px; border: 1px dashed var(--accent-secondary); color: var(--accent-secondary); background: rgba(6, 182, 212, 0.08);" onclick="pulseApp.quickGuestLogin()">
+          ⚡ Quick 1-Click Guest Access (200 Free Coins)
+        </button>
+      </div>
+
+      <div style="text-align: center; color: var(--text-dim); font-size: 0.75rem; margin-bottom: 1.25rem; position: relative;">
+        <span>── OR WITH EMAIL &amp; PASSWORD ──</span>
+      </div>
+
+      <!-- FORM 1: EMAIL LOGIN FORM -->
+      <div id="authLoginFormSection" style="display: block;">
+        <div class="admin-form-group">
+          <label>Email Address</label>
+          <input type="email" id="loginEmail" class="admin-input" placeholder="name@gmail.com" autocomplete="email">
+        </div>
+        <div class="admin-form-group">
+          <label>Password</label>
+          <input type="password" id="loginPassword" class="admin-input" placeholder="Enter your password" autocomplete="current-password">
+        </div>
+        <button type="button" class="glow-btn" id="submitLoginBtn" style="width: 100%; padding: 12px; border-radius: var(--radius-md); font-size: 0.95rem; margin-top: 10px;" onclick="pulseApp.loginWithEmail()">
+          🚀 Log In to Account
+        </button>
+      </div>
+
+      <!-- FORM 2: EMAIL REGISTRATION FORM -->
+      <div id="authRegisterFormSection" style="display: none;">
+        <div class="admin-form-group">
+          <label>Email Address</label>
+          <input type="email" id="regEmail" class="admin-input" placeholder="name@gmail.com" autocomplete="email">
+        </div>
+        <div class="admin-form-group">
+          <label>Create Password</label>
+          <input type="password" id="regPassword" class="admin-input" placeholder="Create a strong password" autocomplete="new-password">
+        </div>
+        <div class="admin-form-group">
+          <label>Full Name / Display Name (Optional)</label>
+          <input type="text" id="regUsername" class="admin-input" placeholder="Your name">
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+          <div class="admin-form-group">
+            <label>Date of Birth (18+)</label>
+            <input type="date" id="regDob" class="admin-input" value="2000-01-01">
+          </div>
+          <div class="admin-form-group">
+            <label>Gender</label>
+            <select id="regGender" class="admin-select">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="admin-form-group">
+          <label>Country</label>
+          <input type="text" id="regCountry" class="admin-input" value="India">
+        </div>
+
+        <button type="button" class="glow-btn" id="submitRegisterBtn" style="width: 100%; padding: 12px; border-radius: var(--radius-md); font-size: 0.95rem; margin-top: 10px;" onclick="pulseApp.registerWithEmail()">
+          🚀 Create Account &amp; Claim 200 Coins
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       RADAR MATCHMAKING MODAL (REAL HUMANS ONLY)
+       ========================================================================== -->
+  <div class="modal-overlay" id="radarModal">
+    <div class="radar-modal-content glass-panel">
+      <div class="radar-screen">
+        <div class="radar-ring"></div>
+        <div class="radar-ring"></div>
+        <div class="radar-ring"></div>
+        <div class="radar-sweep"></div>
+        <div class="radar-user-icon">📡</div>
+      </div>
+      <h3 id="radarCategoryLabel" style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem;">SEARCHING REAL MATCH</h3>
+      <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem;">
+        Waiting for another online person to connect...
+      </p>
+      <div style="margin-bottom: 1.5rem; font-size: 0.85rem; color: #10b981; font-weight: 700;" id="radarOnlineCount">
+        1 Active Human Online
+      </div>
+
+      <!-- Quick Multi-Window Test Helper -->
+      <div style="background: rgba(255,255,255,0.04); border-radius: var(--radius-md); padding: 12px; margin-bottom: 1.5rem; font-size: 0.85rem; line-height: 1.4;">
+        <span>💡 Testing solo right now? Click below to open a 2nd window and connect to yourself in live 2-way WebRTC!</span>
+        <button class="btn-sm" style="background: var(--accent-primary); color: #fff; width: 100%; margin-top: 8px; padding: 8px; border-radius: var(--radius-sm); font-weight: 800;" onclick="window.open(window.location.origin, '_blank')">
+          🪟 Open 2nd Window to Test Real Call
+        </button>
+      </div>
+      
+      <button class="control-btn btn-danger-sm" id="cancelRadarBtn" style="width: auto; padding: 10px 24px; border-radius: var(--radius-full); margin: 0 auto; display: block; font-size: 0.95rem;">
+        Cancel Search
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FULLSCREEN LIVE VIDEO CALLING ROOM
+       ========================================================================== -->
+  <div class="call-container" id="callContainer" style="display: none;">
+    <div class="call-top-bar">
+      <div class="call-partner-info">
+        <div class="partner-avatar">
+          <img src="" alt="Partner" id="partnerAvatarImg" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="partner-details">
+          <h4 id="partnerDisplayName">Partner Name</h4>
+          <div class="partner-country-tag" id="partnerCountryTag">🌍 Country</div>
+        </div>
+      </div>
+
+      <div class="call-meta-badges">
+        <div class="call-timer-badge">
+          <span>⏱️</span>
+          <span id="callDurationTimer">00:00</span>
+        </div>
+        <div class="coin-pill" style="padding: 4px 12px;">
+          <span class="coin-icon">🪙</span>
+          <span class="coin-amount" id="callCoinCount">195</span>
+        </div>
+        <div class="quality-badge">Live HD</div>
+      </div>
+    </div>
+
+    <div class="remote-video-wrapper">
+      <video id="remoteVideoFeed" class="remote-video-feed" autoplay playsinline></video>
+    </div>
+
+    <div class="local-pip-wrapper" id="localPipWrapper" title="Drag to reposition">
+      <video id="localVideoFeed" class="local-pip-feed" autoplay playsinline muted></video>
+    </div>
+
+    <div class="call-bottom-controls">
+      <button class="control-btn" id="btnMuteAudio" title="Mute/Unmute Mic (M)">🎙️</button>
+      <button class="control-btn" id="btnToggleVideo" title="Camera On/Off (V)">📹</button>
+      <button class="control-btn" id="btnFlipCamera" title="Flip Camera">🔄</button>
+      <button class="control-btn" id="btnReportCall" style="color: var(--warning);" title="Report User">🚩</button>
+      <button class="control-btn" id="btnBlockCall" style="color: var(--danger);" title="Block User">🚫</button>
+      
+      <button class="control-btn btn-next" id="btnNextStranger" title="Next Stranger (Space)">
+        <span>Next</span>
+        <span>⏭️</span>
+      </button>
+      
+      <button class="control-btn btn-end" id="btnEndCall" title="End Call (E)">
+        🛑
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       COIN WALLET & RECHARGE MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="walletModal">
+    <div class="glass-panel" style="max-width: 600px; width: 100%; border-radius: var(--radius-lg); padding: 2rem; max-height: 90vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <h3 style="font-size: 1.5rem; font-weight: 900; display: flex; align-items: center; gap: 8px;">
+          <span>🪙</span>
+          <span>Coin Wallet</span>
+        </h3>
+        <button class="control-btn modal-close-btn" style="width: 32px; height: 32px;">✕</button>
+      </div>
+
+      <div style="background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: var(--radius-md); padding: 1.25rem; display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <div>
+          <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Total Balance</div>
+          <div style="font-size: 2rem; font-weight: 900; color: #fbbf24;" id="modalWalletBalance">200 Coins</div>
+        </div>
+        <div style="text-align: right; font-size: 0.85rem;">
+          <div id="modalFreeCoins" style="color: #10b981; font-weight: 700;">200 Free</div>
+          <div id="modalPurchasedCoins" style="color: var(--text-muted);">0 Purchased</div>
+        </div>
+      </div>
+
+      <h4 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 1rem;">Purchase Coin Packages</h4>
+      <div id="walletPackagesGrid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem;"></div>
+
+      <h4 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 1rem;">Transaction History</h4>
+      <div id="walletTxList" style="max-height: 180px; overflow-y: auto;"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       VIP SUBSCRIPTION MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="subscriptionModal">
+    <div class="glass-panel" style="max-width: 800px; width: 100%; border-radius: var(--radius-lg); padding: 2rem; max-height: 90vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <div>
+          <h3 style="font-size: 1.6rem; font-weight: 900; display: flex; align-items: center; gap: 8px;">
+            <span>👑</span>
+            <span>PulseLive VIP Subscription</span>
+          </h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Unlock exclusive Male and Female video matching categories.</p>
+        </div>
+        <button class="control-btn modal-close-btn" style="width: 32px; height: 32px;">✕</button>
+      </div>
+
+      <div id="subscriptionPlansGrid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PAYMENT CHECKOUT WITH SCREENSHOT UPLOAD & UTR VERIFICATION
+       ========================================================================== -->
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="glass-panel" style="max-width: 520px; width: 100%; border-radius: var(--radius-lg); padding: 2rem; max-height: 92vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <h3 style="font-size: 1.4rem; font-weight: 900;">Complete Payment</h3>
+        <button class="control-btn modal-close-btn" style="width: 32px; height: 32px;">✕</button>
+      </div>
+
+      <div style="background: rgba(255, 255, 255, 0.04); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <div id="checkoutItemLabel" style="font-weight: 800; font-size: 1rem;">Package</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">Verified Owner Activation</div>
+        </div>
+        <div style="text-align: right;">
+          <div id="checkoutAmountInr" style="font-weight: 900; font-size: 1.3rem; color: #10b981;">₹0</div>
+          <div id="checkoutAmountUsd" style="font-size: 0.85rem; color: var(--text-muted);">$0.00</div>
+        </div>
+      </div>
+
+      <!-- UPI QR Scanner -->
+      <div style="border: 1px solid var(--border-glass); border-radius: var(--radius-md); padding: 1.25rem; margin-bottom: 1.5rem; text-align: center; background: rgba(0, 0, 0, 0.25);">
+        <h4 style="font-size: 0.95rem; font-weight: 800; margin-bottom: 8px; color: #fbbf24;">
+          ⚡ Step 1: Scan &amp; Pay via UPI (GPay / PhonePe / Paytm / BHIM)
+        </h4>
+        <div style="width: 180px; height: 180px; margin: 0 auto 10px; border-radius: var(--radius-md); overflow: hidden; border: 2px solid #fbbf24; box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);">
+          <img id="checkoutQrImg" src="/assets/payment-qr.jpg" alt="UPI Payment QR Code" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div style="font-size: 0.85rem; color: var(--text-muted);">
+          UPI ID: <strong id="checkoutUpiId" style="color:#fff;">pulselive@upi</strong>
+        </div>
+      </div>
+
+      <!-- Step 2: Payment Proof Submission (UTR & Screenshot Upload) -->
+      <div style="border: 1px solid var(--border-glass); border-radius: var(--radius-md); padding: 1.25rem; background: rgba(0, 0, 0, 0.35);">
+        <h4 style="font-size: 0.95rem; font-weight: 800; margin-bottom: 12px; color: #10b981;">
+          📸 Step 2: Submit Payment Screenshot &amp; UTR
+        </h4>
+
+        <div class="admin-form-group">
+          <label>12-Digit UPI UTR / Transaction Reference Number</label>
+          <input type="text" id="checkoutUtrInput" class="admin-input" placeholder="e.g. 432198765432">
+        </div>
+
+        <div class="admin-form-group">
+          <label>Attach Payment Screenshot / Receipt</label>
+          <input type="file" id="checkoutScreenshotInput" accept="image/*" class="admin-input" onchange="pulseApp.handleScreenshotFile(event)">
+        </div>
+
+        <div id="screenshotPreviewBox" style="display: none; margin-bottom: 1rem; text-align: center;">
+          <img id="screenshotPreviewImg" style="max-height: 120px; border-radius: 6px; border: 1px solid var(--accent-primary);">
+        </div>
+
+        <button class="glow-btn" style="width: 100%; padding: 12px; border-radius: var(--radius-md); font-size: 0.95rem;" onclick="pulseApp.submitPaymentProof()">
+          🚀 Submit Payment Proof for Verification
+        </button>
+        <small style="display:block; text-align:center; color:var(--text-dim); margin-top:8px; font-size:0.75rem;">
+          The Owner verifies your bank payment and activates your account benefits immediately!
+        </small>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       USER PROFILE & SETTINGS MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="profileModal">
+    <div class="glass-panel" style="max-width: 480px; width: 100%; border-radius: var(--radius-lg); padding: 2rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <h3 style="font-size: 1.4rem; font-weight: 900;">User Profile</h3>
+        <button class="control-btn modal-close-btn" style="width: 32px; height: 32px;">✕</button>
+      </div>
+
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <h4 id="profileUsername" style="font-size: 1.2rem; font-weight: 800;">Username</h4>
+        <div id="profileEmail" style="color: var(--accent-secondary); font-size: 0.85rem;">user@gmail.com</div>
+        <div id="profileUserId" style="color: var(--text-dim); font-size: 0.8rem; font-family: monospace;">PL-000000</div>
+        <div style="margin-top: 8px;">
+          <span class="badge badge-active" id="profileStatusBadge">Standard Member</span>
+        </div>
+      </div>
+
+      <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 1rem; font-size: 0.9rem; line-height: 2; margin-bottom: 1.5rem;">
+        <div><strong>Country:</strong> <span id="profileCountry">India (IN)</span></div>
+        <div><strong>Gender:</strong> <span id="profileGender">Other</span></div>
+        <div><strong>Date of Birth:</strong> <span id="profileDob">2000-01-01</span></div>
+      </div>
+
+      <button class="control-btn btn-danger-sm" style="width: 100%; padding: 10px; border-radius: var(--radius-md);" onclick="localStorage.removeItem('pulselive_user'); window.location.reload();">
+        Secure Logout
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       CUSTOMER SUPPORT MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="supportModal">
+    <div class="glass-panel" style="max-width: 500px; width: 100%; border-radius: var(--radius-lg); padding: 2rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <h3 style="font-size: 1.4rem; font-weight: 900;">Support Desk</h3>
+        <button class="control-btn modal-close-btn" style="width: 32px; height: 32px;">✕</button>
+      </div>
+
+      <div class="admin-form-group">
+        <label>Subject</label>
+        <input type="text" id="supportSubject" class="admin-input" placeholder="e.g. Payment or account issue">
+      </div>
+
+      <div class="admin-form-group">
+        <label>Category</label>
+        <select id="supportCategory" class="admin-select">
+          <option value="payment">Payment / Wallet Issue</option>
+          <option value="account">Account Access</option>
+          <option value="technical">Video / Audio Issue</option>
+          <option value="safety">Report Abuse</option>
+        </select>
+      </div>
+
+      <div class="admin-form-group">
+        <label>Message</label>
+        <textarea id="supportMessage" class="admin-textarea" placeholder="Describe the issue in detail..."></textarea>
+      </div>
+
+      <button class="glow-btn" style="width: 100%; padding: 12px; border-radius: var(--radius-md);" onclick="pulseApp.submitSupportTicket()">
+        Submit Support Ticket
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       REPORT CALL MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="reportModal">
+    <div class="glass-panel" style="max-width: 440px; width: 100%; border-radius: var(--radius-lg); padding: 2rem; text-align: center;">
+      <h3 style="font-size: 1.4rem; font-weight: 900; margin-bottom: 0.5rem; color: var(--danger);">Report User</h3>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">Report <span id="reportPartnerName" style="color:#fff; font-weight:700;">Partner</span> for community violations.</p>
+
+      <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.5rem;">
+        <button class="control-btn" style="border-radius: var(--radius-md); font-size: 0.9rem; padding: 10px; width: 100%; text-align: left;" onclick="pulseApp.submitReport('Inappropriate / Nudity')">
+          🚫 Inappropriate / Nudity
+        </button>
+        <button class="control-btn" style="border-radius: var(--radius-md); font-size: 0.9rem; padding: 10px; width: 100%; text-align: left;" onclick="pulseApp.submitReport('Underage Suspect')">
+          🔞 Suspected Underage User
+        </button>
+        <button class="control-btn" style="border-radius: var(--radius-md); font-size: 0.9rem; padding: 10px; width: 100%; text-align: left;" onclick="pulseApp.submitReport('Harassment / Abuse')">
+          ⚠️ Harassment or Abusive Conduct
+        </button>
+        <button class="control-btn" style="border-radius: var(--radius-md); font-size: 0.9rem; padding: 10px; width: 100%; text-align: left;" onclick="pulseApp.submitReport('Spam / Commercial Bot')">
+          🤖 Spam or Automated Bot
+        </button>
+      </div>
+
+      <button class="control-btn modal-close-btn" style="width: 100%; border-radius: var(--radius-md); padding: 8px;">
+        Cancel
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FULLSCREEN SCREENSHOT PREVIEW MODAL FOR OWNER STUDIO
+       ========================================================================== -->
+  <div class="modal-overlay" id="screenshotModal">
+    <div class="glass-panel" style="max-width: 650px; width: 100%; border-radius: var(--radius-lg); padding: 1.5rem; text-align: center;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+        <h4 id="screenshotModalUser" style="font-size:1.1rem; font-weight:800;">Payment Screenshot</h4>
+        <button class="control-btn modal-close-btn" style="width:30px; height:30px;">✕</button>
+      </div>
+      <div style="max-height: 70vh; overflow-y: auto;">
+        <img id="screenshotModalImg" style="max-width: 100%; border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       OWNER STUDIO COMMAND CENTER (DEDICATED OWNER STUDIO)
+       ========================================================================== -->
+  <div id="studioView" style="display: none;">
+    <div class="admin-container">
+      <div class="admin-header">
+        <div class="admin-title-group">
+          <h2>
+            <span class="brand-name-display">PulseLive</span>
+            <span style="font-size: 1rem; color: var(--text-muted); font-weight: 500;">/ Owner Studio</span>
+            <span class="owner-shield">OWNER COMMAND CENTER</span>
+          </h2>
+        </div>
+        <div>
+          <button class="glow-btn" style="padding: 8px 18px; border-radius: var(--radius-md);" onclick="ownerStudio.closeStudio()">
+            ← Back to App
+          </button>
+        </div>
+      </div>
+
+      <!-- Studio Navigation Tabs -->
+      <div class="admin-tabs">
+        <button class="admin-tab-btn studio-tab-btn active" data-tab="reality">📊 Reality Pulse</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="payments">
+          💳 Payment Verifications <span id="pendingPayBadge" class="badge badge-banned" style="display:none; font-size:11px;">0</span>
+        </button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="users">👥 User Freedom &amp; Control</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="coins">🪙 Coin Store &amp; Pricing</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="theme">🎨 Live Glass &amp; Theme Studio</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="config">⚙️ Granular App Configurator</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="reports">🚨 Abuse Reports</button>
+        <button class="admin-tab-btn studio-tab-btn" data-tab="logs">📜 Audit Trail</button>
+      </div>
+
+      <!-- TAB 1: REALITY PULSE -->
+      <div class="admin-tab-content studio-tab-content active" id="studio-tab-reality">
+        <div class="admin-stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Real Connected Online Users</span>
+            <span class="stat-value" id="studioLiveUsers">0</span>
+            <span class="stat-subtext">Live WebSocket connections</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Total Real Registered Accounts</span>
+            <span class="stat-value" id="studioTotalUsers">0</span>
+            <span class="stat-subtext">Real emails in database</span>
+          </div>
+          <div class="stat-card revenue">
+            <span class="stat-label">Verified Revenue</span>
+            <span class="stat-value" id="studioRevenue">₹0</span>
+            <span class="stat-subtext">Received &amp; Approved</span>
+          </div>
+          <div class="stat-card coins">
+            <span class="stat-label">Pending Payment Verifications</span>
+            <span class="stat-value" style="color:#fbbf24;" id="studioPendingPayments">0</span>
+            <span class="stat-subtext">Screenshots waiting for approval</span>
+          </div>
+          <div class="stat-card calls">
+            <span class="stat-label">Live Active Video Calls</span>
+            <span class="stat-value" id="studioActiveCalls">0</span>
+            <span class="stat-subtext">Two humans currently talking</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Permanent Free VIP Users</span>
+            <span class="stat-value" id="studioFreeVipUsers">0</span>
+            <span class="stat-subtext">Owner granted free access</span>
+          </div>
+        </div>
+
+        <div class="admin-table-wrapper" style="margin-top: 2rem;">
+          <div class="table-toolbar">
+            <h3 style="font-size: 1.1rem; font-weight: 800;">Real Connected Humans Right Now</h3>
+          </div>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Email ID</th>
+                <th>Country</th>
+                <th>Live Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="studioLiveClientsTbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 2: PAYMENT VERIFICATIONS WITH SCREENSHOT PROOFS -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-payments">
+        <div class="admin-table-wrapper">
+          <div class="table-toolbar">
+            <div>
+              <h3 style="font-size: 1.1rem; font-weight: 800; color: #fbbf24;">Pending Payment Approvals Desk</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Inspect user payment screenshots and UTR numbers. Approve once you confirm bank receipt.</p>
+            </div>
+          </div>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>User</th>
+                <th>Item Requested</th>
+                <th>Amount</th>
+                <th>UTR Reference</th>
+                <th>Screenshot Receipt</th>
+                <th>Submitted At</th>
+                <th>Owner Decision</th>
+              </tr>
+            </thead>
+            <tbody id="studioPendingPaymentsTbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 3: USER FREEDOM & CONTROL (MAKE ANY USER FREE) -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-users">
+        <div class="admin-table-wrapper">
+          <div class="table-toolbar">
+            <div>
+              <h3 style="font-size: 1.1rem; font-weight: 800;">Registered User Control Desk</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Make any user ID 100% Free with permanent VIP access, grant custom coins, or ban abusers.</p>
+            </div>
+            <input type="text" id="studioUserSearch" class="admin-search-input" placeholder="Search by ID, Username or Email...">
+          </div>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>User Details</th>
+                <th>Email Address</th>
+                <th>Country / Gender</th>
+                <th>Coin Balance</th>
+                <th>VIP Status</th>
+                <th>Owner Control Actions</th>
+              </tr>
+            </thead>
+            <tbody id="studioUsersTableBody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 4: COIN STORE & PRICING -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-coins">
+        <div class="admin-card-grid">
+          <div class="glass-panel" style="padding: 1.5rem; border-radius: var(--radius-md);">
+            <h4 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 1.25rem;">Coin Economy Rules</h4>
+            
+            <div class="admin-form-group">
+              <label>Complimentary Welcome Bonus Coins on Signup</label>
+              <input type="number" id="studioWelcomeCoins" class="admin-input" value="200">
+            </div>
+
+            <div class="admin-form-group">
+              <label>Coins Deducted Per Video Call (Set to 0 for Free Calls)</label>
+              <input type="number" id="studioCallCost" class="admin-input" value="5">
+            </div>
+
+            <button class="glow-btn" style="width: 100%; padding: 10px; border-radius: var(--radius-md); margin-top: 1rem;" onclick="ownerStudio.saveGranularSettings()">
+              Save Coin Rules
+            </button>
+          </div>
+
+          <div class="glass-panel" style="padding: 1.5rem; border-radius: var(--radius-md);">
+            <h4 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 1.25rem;">Store Packages &amp; Pricing</h4>
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Package</th>
+                  <th>Coins</th>
+                  <th>Price</th>
+                  <th>Badge</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="studioPackagesTbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 5: GRANULAR APP CONFIGURATOR (BARIK-SE-BARIK CONTROL) -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-config">
+        <div class="glass-panel" style="padding: 2rem; border-radius: var(--radius-lg);">
+          <h3 style="font-size: 1.3rem; font-weight: 900; margin-bottom: 1.5rem;">Granular App Configurator</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem;">
+            Control every detail of the app: brand name, logo, payment UPI QR code, colors, security PIN, and category access modes.
+          </p>
+
+          <form id="studioSettingsForm">
+            <div class="admin-card-grid">
+              <div>
+                <div class="admin-form-group">
+                  <label>Application Brand Name</label>
+                  <input type="text" id="cfgBrandName" class="admin-input" value="PulseLive">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Brand Tagline</label>
+                  <input type="text" id="cfgBrandTagline" class="admin-input" value="Global Live Random Video Chat">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Brand Logo URL</label>
+                  <input type="text" id="cfgLogoUrl" class="admin-input" value="/assets/logo.svg">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Payment UPI QR Code Image URL</label>
+                  <input type="text" id="cfgPaymentQr" class="admin-input" value="/assets/payment-qr.jpg">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Receiving UPI ID (VPA)</label>
+                  <input type="text" id="cfgUpiId" class="admin-input" value="pulselive@upi">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>UPI Payee Name</label>
+                  <input type="text" id="cfgUpiName" class="admin-input" value="PulseLive Official">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>🔑 Owner Studio Security Passcode / PIN (Leave empty to keep current)</label>
+                  <input type="text" id="cfgSecurityPin" class="admin-input" placeholder="e.g. 7890">
+                </div>
+              </div>
+
+              <div>
+                <div class="admin-form-group">
+                  <label>Theme Primary Accent Color</label>
+                  <input type="color" id="cfgThemeAccent" value="#8b5cf6" style="width: 100%; height: 45px; border-radius: 8px; background: transparent; border: 1px solid var(--border-glass); cursor: pointer;">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Top Announcement Ticker Text</label>
+                  <input type="text" id="cfgAnnouncement" class="admin-input" value="✨ Welcome to PulseLive! Real live video chat. Register now for 200 free coins!">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Support Contact Email</label>
+                  <input type="email" id="cfgSupportEmail" class="admin-input" value="support@pulselive.io">
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Category Toggles</label>
+                  <div style="display: flex; gap: 1rem; margin-top: 8px;">
+                    <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                      <input type="checkbox" id="cfgStrangerCat" checked> Stranger Category
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                      <input type="checkbox" id="cfgFemaleCat" checked> Female Category
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                      <input type="checkbox" id="cfgMaleCat" checked> Male Category
+                    </label>
+                  </div>
+                </div>
+
+                <div class="admin-form-group">
+                  <label>Terms &amp; Conditions (18+ Mandate)</label>
+                  <textarea id="cfgTerms" class="admin-textarea"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="glow-btn" style="padding: 12px 30px; border-radius: var(--radius-md); font-size: 1rem; margin-top: 1rem;">
+              💾 Save &amp; Broadcast Live Update
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- TAB: LIVE GLASS & THEME STUDIO -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-theme">
+        <div class="admin-table-wrapper" style="padding: 2rem;">
+          <div class="table-toolbar">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: #fbbf24;">🎨 Realtime Glass Theme &amp; Color Director</h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Customize website appearance with one-click presets, dynamic glassmorphism blur, and liquid color palettes. Changes reflect instantly!</p>
+            </div>
+            <button class="glow-btn" id="btnSaveGlassTheme" style="padding: 10px 22px; border-radius: var(--radius-md);">
+              💾 Save &amp; Apply Glass Theme
+            </button>
+          </div>
+
+          <!-- 6 ONE-CLICK GLASS THEME PRESETS -->
+          <h4 style="font-size: 0.95rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); margin-top: 1.5rem;">One-Click Glass Theme Presets</h4>
+          <div class="theme-presets-grid">
+            <div class="theme-preset-card active" data-preset="cyber_violet" onclick="ownerStudio.applyThemePreset('cyber_violet')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">🌌 Cyber Violet Glass</strong>
+                <span style="font-size: 0.8rem; color: #c084fc;">Default</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Obsidian black with electric purple &amp; cyan ambient radiance.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #8b5cf6, #06b6d4);"></div>
+            </div>
+
+            <div class="theme-preset-card" data-preset="aurora_ice" onclick="ownerStudio.applyThemePreset('aurora_ice')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">💎 Aurora Diamond Glass</strong>
+                <span style="font-size: 0.8rem; color: #38bdf8;">Crystalline</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Midnight royal navy, frosted crystal glass with neon aqua glow.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #00f2fe, #4facfe);"></div>
+            </div>
+
+            <div class="theme-preset-card" data-preset="amethyst_glow" onclick="ownerStudio.applyThemePreset('amethyst_glow')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">🔮 Electric Amethyst</strong>
+                <span style="font-size: 0.8rem; color: #ec4899;">Vivid</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Deep galactic purple, hot pink glass shimmer &amp; magenta glow.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #d946ef, #ec4899);"></div>
+            </div>
+
+            <div class="theme-preset-card" data-preset="royal_gold" onclick="ownerStudio.applyThemePreset('royal_gold')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">👑 Royal Noir &amp; Gold</strong>
+                <span style="font-size: 0.8rem; color: #fbbf24;">Luxury</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Pure black obsidian with molten gold and champagne amber sheen.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #fbbf24, #f59e0b);"></div>
+            </div>
+
+            <div class="theme-preset-card" data-preset="amoled_stealth" onclick="ownerStudio.applyThemePreset('amoled_stealth')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">🌑 AMOLED Pitch Glass</strong>
+                <span style="font-size: 0.8rem; color: #a855f7;">Stealth</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">100% pitch black with razor-sharp neon borders and zero light bleed.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #a855f7, #3b82f6);"></div>
+            </div>
+
+            <div class="theme-preset-card" data-preset="midnight_ocean" onclick="ownerStudio.applyThemePreset('midnight_ocean')">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 1rem; color: #f8fafc;">🌊 Midnight Ocean</strong>
+                <span style="font-size: 0.8rem; color: #06b6d4;">Aquatic</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Deep oceanic glass with luminous sapphire waves and deep cyan reflections.</p>
+              <div class="preset-preview-bar" style="background: linear-gradient(90deg, #06b6d4, #3b82f6);"></div>
+            </div>
+          </div>
+
+          <!-- FINE-TUNING CONTROLS -->
+          <h4 style="font-size: 0.95rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); margin-bottom: 1rem;">Fine-Tune Colors &amp; Glass Intensity</h4>
+          <div class="theme-controls-grid">
+            <div>
+              <div class="admin-form-group">
+                <label>Canvas Background Color</label>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                  <input type="color" id="themeBgColor" value="#08080d" style="width: 50px; height: 42px; border-radius: 8px; border: 1px solid var(--border-glass); background: transparent; cursor: pointer;">
+                  <input type="text" id="themeBgColorHex" class="admin-input" value="#08080d" style="flex: 1;">
+                </div>
+              </div>
+
+              <div class="admin-form-group">
+                <label>Primary Accent Glow Color</label>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                  <input type="color" id="themeAccentColor" value="#8b5cf6" style="width: 50px; height: 42px; border-radius: 8px; border: 1px solid var(--border-glass); background: transparent; cursor: pointer;">
+                  <input type="text" id="themeAccentColorHex" class="admin-input" value="#8b5cf6" style="flex: 1;">
+                </div>
+              </div>
+
+              <div class="admin-form-group">
+                <label>Secondary Accent Glow Color</label>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                  <input type="color" id="themeSecondaryColor" value="#06b6d4" style="width: 50px; height: 42px; border-radius: 8px; border: 1px solid var(--border-glass); background: transparent; cursor: pointer;">
+                  <input type="text" id="themeSecondaryColorHex" class="admin-input" value="#06b6d4" style="flex: 1;">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="theme-slider-group">
+                <div class="theme-slider-header">
+                  <span>Glass Backdrop Blur Intensity</span>
+                  <span id="labelGlassBlur">24px</span>
+                </div>
+                <input type="range" id="sliderGlassBlur" class="theme-range-input" min="8" max="45" value="24">
+              </div>
+
+              <div class="theme-slider-group">
+                <div class="theme-slider-header">
+                  <span>Glass Surface Opacity</span>
+                  <span id="labelGlassOpacity">72%</span>
+                </div>
+                <input type="range" id="sliderGlassOpacity" class="theme-range-input" min="20" max="95" value="72">
+              </div>
+
+              <div class="theme-slider-group">
+                <div class="theme-slider-header">
+                  <span>Ambient Floating Orbs Motion</span>
+                  <span id="labelOrbsMotion">Smooth Flow</span>
+                </div>
+                <select id="selectOrbsMotion" class="admin-input">
+                  <option value="smooth">✨ Smooth Ambient Flow (Recommended)</option>
+                  <option value="energetic">⚡ High Energy Fluid</option>
+                  <option value="calm">🌙 Subtle Calm Drift</option>
+                  <option value="disabled">🚫 Disabled (Clean Solid)</option>
+                </select>
+              </div>
+
+              <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                <button class="control-btn" id="btnPreviewTheme" style="flex: 1; padding: 12px; font-weight: 700; border-radius: var(--radius-md);">
+                  👁️ Test Live Preview
+                </button>
+                <button class="glow-btn" id="btnSaveGlassThemeBottom" style="flex: 1; padding: 12px; font-weight: 700; border-radius: var(--radius-md);">
+                  💾 Save &amp; Apply Everywhere
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 6: ABUSE REPORTS -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-reports">
+        <div class="admin-table-wrapper">
+          <div class="table-toolbar">
+            <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--danger);">Reported User Flagged Desk</h3>
+          </div>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Report ID</th>
+                <th>Reporter</th>
+                <th>Reported User</th>
+                <th>Reason</th>
+                <th>Details</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="studioReportsTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 7: AUDIT LOGS -->
+      <div class="admin-tab-content studio-tab-content" id="studio-tab-logs">
+        <div class="admin-table-wrapper">
+          <div class="table-toolbar">
+            <h3 style="font-size: 1.1rem; font-weight: 800;">Owner Immutable Audit Trail</h3>
+          </div>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Action</th>
+                <th>Target</th>
+                <th>Details</th>
+                <th>IP Address</th>
+              </tr>
+            </thead>
+            <tbody id="studioLogsTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MOBILE & TABLET BOTTOM FLOATING NAVIGATION BAR
+       ========================================================================== -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav">
+    <button type="button" class="mobile-nav-item active" id="mNavHome" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+      <span class="m-nav-icon">🏠</span>
+      <span class="m-nav-label">Home</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mNavCall" onclick="pulseApp.handleCategoryClick('stranger')">
+      <span class="m-nav-icon">⚡</span>
+      <span class="m-nav-label">Start Call</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mNavCoins" onclick="pulseApp.openWalletModal()">
+      <span class="m-nav-icon">🪙</span>
+      <span class="m-nav-label">Coins</span>
+    </button>
+    <button type="button" class="mobile-nav-item studio-nav-item" id="mNavStudio" onclick="window.ownerStudio.openStudio()">
+      <span class="m-nav-icon">👑</span>
+      <span class="m-nav-label">Studio</span>
+    </button>
+    <button type="button" class="mobile-nav-item" id="mNavProfile" onclick="pulseApp.openProfileModal()">
+      <span class="m-nav-icon">👤</span>
+      <span class="m-nav-label">Profile</span>
+    </button>
+  </nav>
+
+  <script src="/js/socket.js?v=8"></script>
+  <script src="/js/webrtc.js?v=8"></script>
+  <script src="/js/admin.js?v=8"></script>
+  <script src="/js/app.js?v=8"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js?v=8').catch(() => {});
+    }
+  </script>
+</body>
+</html>
